@@ -8,13 +8,13 @@ Original file is located at
 """
 
 scores = input().split()
-count = 0
+count_fail = 0
 
 for i in scores:
   if int(i) < 60:
-    count += 1
+    count_fail += 1
 
-print(count)
+print(count_fail)
 
 
 sum = 0
@@ -30,7 +30,7 @@ if count > 0:
 max_score = max(scores)
 min_score = min(scores)
 
-print("不及格數量:", count)
+print("不及格數量:", count_fail)
 print("最大值:", max_score)
 print("最小值:", min_score)
-print(average)
+print("平均值:", average)

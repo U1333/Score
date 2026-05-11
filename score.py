@@ -27,4 +27,10 @@ for i in scores:
 if count > 0:
   average = sum / count
 
+max_score = max(scores)
+min_score = min(scores)
+
+print("不及格數量:", count)
+print("最大值:", max_score)
+print("最小值:", min_score)
 print(average)

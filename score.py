@@ -14,8 +14,6 @@ for i in scores:
   if int(i) < 60:
     count_fail += 1
 
-print(count_fail)
-
 
 sum = 0
 count = 0

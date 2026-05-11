@@ -15,4 +15,9 @@ for score in scores:
     if score < 60:
         count += 1
 
-print(count)
+max_score = max(scores)
+min_score = min(scores)
+
+print("不及格數量:", count)
+print("最大值:", max_score)
+print("最小值:", min_score)
